@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Code_Challenge.Infrastructure</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Code-Chalenge.Business\Code-Challenge.Business.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DataGenerator\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Polly" Version="7.2.3" />
+  </ItemGroup>
+
+</Project>
